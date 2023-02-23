@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.CoinDeskApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.971 s <<< FAILURE! - in com.example.demo.CoinDeskApplicationTests
+testGetNewCoinDeskApi  Time elapsed: 0.321 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8080/coinDesks/getCoinDesk": Connection refused: connect
+	at com.example.demo.CoinDeskApplicationTests.testGetNewCoinDeskApi(CoinDeskApplicationTests.java:173)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.example.demo.CoinDeskApplicationTests.testGetNewCoinDeskApi(CoinDeskApplicationTests.java:173)
+

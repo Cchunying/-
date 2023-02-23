@@ -1,0 +1,1 @@
+insert into COINDESK (currency, currencyCName) values ('EUR', 'euro');
